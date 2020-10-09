@@ -1,0 +1,66 @@
+{
+  "_from": "cordova-plugin-one",
+  "_id": "cordova-plugin-one@1.4.0",
+  "_inBundle": false,
+  "_integrity": "sha512-RW3KNLEBbP6/KvLuZRP31MWHHi/DymTZfqRN59YJXowWJlB+Irg6cMNO1arA7FC4DKWgySee5nqrAs9ANDekrA==",
+  "_location": "/cordova-plugin-one",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-one",
+    "name": "cordova-plugin-one",
+    "escapedName": "cordova-plugin-one",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#DEV:/",
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-one/-/cordova-plugin-one-1.4.0.tgz",
+  "_shasum": "cff9df7f1d971ce83768340f2f792560a088399f",
+  "_spec": "cordova-plugin-one",
+  "_where": "/Users/ashu/Documents/ionic/onesdkcordova/ionic3-angular-example",
+  "author": {
+    "name": "Thunderhead One, Inc."
+  },
+  "bugs": {
+    "url": "https://github.com/thunderheadone/one-sdk-cordova/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-one",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "One Cordova Plugin for the ONE SDK for iOS and Android",
+  "devDependencies": {
+    "shelljs": "0.7.8"
+  },
+  "homepage": "https://www.thunderhead.com/",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "ecosystem:phonegap",
+    "cordova-ios",
+    "cordova-android",
+    "one",
+    "thunderhead",
+    "ONE Engagement Hub"
+  ],
+  "license": "Copyright © 2020 Thunderhead. All rights reserved.",
+  "name": "cordova-plugin-one",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thunderheadone/one-sdk-cordova.git"
+  },
+  "scripts": {
+    "prepublish": "node ./scripts/bump-cordova-sdk-package-version.js"
+  },
+  "version": "1.4.0"
+}
